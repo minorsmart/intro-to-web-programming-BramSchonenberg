@@ -1,0 +1,226 @@
+body {
+	margin: 0; 
+	padding: 0;
+	font-family: montserrat;
+	text-align: left;
+	background-color: rgb(86, 129, 136);
+}
+
+p {
+	color:#fff;
+	font-size:16px;
+}
+
+.body {
+	margin-left:100px;
+	margin-right:100px;
+	margin-top: 6px;
+	margin-bottom: 100px;
+	
+}
+
+
+/* Navigatie balk */
+nav {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 100px;
+	color: #ffffff;
+}
+
+/* Logo linksboven */
+.logo {
+	font-size: 25px;
+	color: #ffffff;
+	padding: 0 15px;
+}
+
+/* Inrichting klik menu balk */
+.menu ul li {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: montserrat;
+	color: #fdfbfb;
+	padding: 5px 15px;
+}
+
+.flex-row {
+	display:flex;
+	flex-direction: row;
+	align-items: flex-start;
+	width:100%;
+}
+
+.align-end {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.row-part {
+	width:50%;
+}
+  
+/* Muis over menu kleur */
+.menu ul li a:hover{
+    background: rgb(0, 0, 0);
+}
+
+/* achtergrond kleur balk */
+.header {
+	height: 100px;
+	background: rgb(15, 27, 39)
+}
+
+/* Normale tekst pagina */
+.script {
+	color: #ffffff;
+	position: relative;
+	text-align: left;
+	
+}
+
+/* Tekst home en portfolio */
+.banner-text {
+	color: rgba(255, 255, 255, 0.868);
+	position: absolute;
+	padding: 10px 20px;
+	top: 45%;
+	left: 32%;
+	transform: translate(-50%, -50%);
+	text-align: left;
+			
+} 
+
+.image-100 {
+	width: 1400px; /* Pas de breedte van de afbeelding aan naar wens */
+	height: auto; /* Behoud de aspect ratio van de afbeelding */
+	float: right; /* Plaats de afbeelding aan de rechterkant */
+	margin :0px; /* Voeg wat marge toe voor een betere opmaak */
+	
+}
+
+.image-200 {
+	width: 1300px; /* Pas de breedte van de afbeelding aan naar wens */
+	height: auto; /* Behoud de aspect ratio van de afbeelding */
+	float: center; /* Plaats de afbeelding aan de rechterkant */
+	margin :0px; /* Voeg wat marge toe voor een betere opmaak */
+}
+
+.image-300 {
+	width: 900px; /* Pas de breedte van de afbeelding aan naar wens */
+	height: auto; /* Behoud de aspect ratio van de afbeelding */
+	float: center; /* Plaats de afbeelding aan de rechterkant */
+	margin :0px; /* Voeg wat marge toe voor een betere opmaak */
+}
+
+.image-400 {
+	width: 500px; /* Pas de breedte van de afbeelding aan naar wens */
+	height: auto; /* Behoud de aspect ratio van de afbeelding */
+	float: center; /* Plaats de afbeelding aan de rechterkant */
+	margin :0px; /* Voeg wat marge toe voor een betere opmaak */
+}
+
+.image-500 {
+	width: auto; /* Pas de breedte van de afbeelding aan naar wens */
+	height: 300px; /* Behoud de aspect ratio van de afbeelding */
+	float: center; /* Plaats de afbeelding aan de rechterkant */
+	margin :0px; /* Voeg wat marge toe voor een betere opmaak */
+}
+
+.image-600 {
+	width: auto; /* Pas de breedte van de afbeelding aan naar wens */
+	height: 100px; /* Behoud de aspect ratio van de afbeelding */
+	float: center; /* Plaats de afbeelding aan de rechterkant */
+	margin: 30px; /* Voeg wat marge toe voor een betere opmaak */
+}
+
+h2{
+	font-size: 30px;
+	margin: 0;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 10;
+}
+p {
+	margin: 15px 0 40px;
+}
+button {
+	background: rgb(15, 27, 39);
+	border: none;
+	outline: none;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: montserrat;
+	display: inline-block;
+}
+
+
+@media (max-width: 1000px) {
+	nav {
+		flex-direction: column;
+		align-items: flex;
+	}
+	.menu ul {
+		padding: 0;
+	}
+	.menu ul li {
+		margin: 0 15px 0 0;
+	}
+	.socials {
+		margin-top: 25px;
+	}
+	.banner-text {
+		left: 40%;
+		text-align: left;
+		width: 70%;
+	}
+    .banner-text h1 {
+        font-size: 50px;
+    }
+}
+@media (max-width: 600px) {
+	.logo {
+		margin-top: 0;
+		font-size: 17px;
+	}
+	nav {
+		padding: 15px;
+	}
+	.menu ul li a {
+		font-size: 10px;
+        padding: 5px;
+	}
+	
+	.banner-text {
+		left: 40%;
+		text-align: left;
+		width: 80%;
+	}
+    .banner-text h1 {
+        font-size: 18px;
+    }
+	.banner-text p {
+		margin: 15px 0;
+		font-size: 11px;
+	}
+    .banner-text button {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8"> 
+    <title>HTML CSS Responsive Website Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet/style.css">    
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="logo">Minor Smart Industry</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Over Mij.html">Over Mij</a></li>
+                    <li><a href="Project.html">Project</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+			    </ul>
+            </div>
+            
+        </nav>
+    </div>
+        <div class="body">
+            <div class="script">
+
+                    <h1>SMART TECHNOLOGY</h1>
+                    <p>Smart Technology is een vak, waarbij wij aan de slag gegaan zijn met een hoop technieken. Zo hebben wij de basis geleerd over programmeren in arduino-taal, het ontwerpen van een PCB, het solderen van hardware op de PBC en het ontwerpen en 3D printen van een product.</p>
+                  
+                </div>
+                
+               <img class="image-300" src="images/technology.jpg" alt="Competenties Connection">
+
+               <Div class="script flex-row">
+                <div class="row-part">
+                    <p></p>
+                    <h2>Workshops en eindresultaat</h2>
+                    <p> Smart technology draait om het ontwerpen van een plantensysteem. Vanaf les 1  bestaat het vak uit zelf aan de slag gaan en vragen stellen wanneer nodig. Via een online les programma zijn we begonnen met het stap voor stap aansluiten en programmeren van de arduino, tot het moment waarop ik een breadbord met werkende hardware had. Binnen dit eerste deel heb ik voornamelijk samengewerkt met Brian en Frank. Doordat zij beiden kennis hebben van programmeren, hebben zij mij kunnen helpen wanneer ik er niet uitkwam. Dit was voor mij een prettige manier van werken, omdat ik nu echt het gevoel heb dat is snap wat ik doe en wat er gebeurt in de code. Andersom heb ik vanuit mijn studie vaker met hardware gewerkt, hierbij heb ik hen kunnen assisteren.<br>
+                    <br> Nadat de hardware goed aangesloten zat op het breadboard en het script geschreven was, werd het tijd voor het ontwerpen van de PCB.  Dit was 1 van mijn leerdoelen. Ik heb dit leerdoel aan mezelf gesteld, omdat ik vanuit mijn eigen studie producten ontwerp. Mijn interesse ligt bij productinteracties en dan voornamelijk wanneer er techniek toegepast wordt. Om techniek mooi te kunnen verwerken in een product, is een PCB ideaal. Doordat het leerproces snel ging bij mij, heb ik anderen kunnen helpen en verder kunnen brengen in hun ontwerp. 
+                    Nadat het ontwerp af was, moesten de componenten op de PCB gesoldeerd worden, hier had ik ook ervaring mee. Ik heb wederom mensen (Charles, Dani, Daan, Brian, Frank) kunnen helpen in dit proces. <br><br>
+                    Nu de PCB af is, kan alles aangesloten worden. Bij het aansluiten kwam ik erachter dat de relais niet vastgeschroefd kon worden op de PCB. Hiervoor heb ik kleine schroeftorens ontwikkeld en geprint, <br>
+                <br> Nu de maten en componenten bekend zijn, kon ik aan de slag gaan met het bakje.  Omdat ik bekend ben met SolidWorks, heb ik besloten mezelf iets meer uit te dagen. Ik ben gegaan voor een all-in product. Dit houdt in dat de plant, de elektra en het water verwerkt zitten in hetzelfde object. Na een hoop iteraties, ben ik gegaan voor een relatief standaard uitziende plantenbak.
+            In de afbeeldingen rechts is het proces van breadbord, naar PCB, het ontwerpen in SolidWorks en het maken van het eindproduct weergegeven.<br><br>
+        Wat ik meeneem uit deze cursus is de kennis om te programmeren en PCB's te maken. Hoewel het programmeren niet altijd soepel ging en ik regelmatig hulp gevraagd heb, heb ik het idee dat ik voldoende kennis opgebouwd heb om hier zelfstandig mee aan de slag te kunnen gaan.</p>
+
+
+                </div>
+                <div id="slideshow">
+                    <img src="images/Tech1.jpg" alt="Afbeelding 1" img height="340px" img width="auto">
+                    <img src="images/tech2.png" alt="Afbeelding 2" img height="340px" img width="auto">
+                    <img src="images/Tech3.png" alt="Afbeelding 3" img height="340px" img width="auto">
+                    <img src="images/tech4.jpg" alt="Afbeelding 4" img height="340px" img width="auto">
+                    <img src="images/tech5.jpg" alt="Afbeelding 5" img height="340px" img width="auto">
+                    <img src="images/tech6.jpg" alt="Afbeelding 6" img height="340px" img width="auto">
+                    <img src="images/tech7.jpg" alt="Afbeelding 7" img height="340px" img width="auto">
+                    <img src="images/tech8.jpg" alt="Afbeelding 8" img height="340px" img width="auto">
+                    <img src="images/tech9.jpg" alt="Afbeelding 9" img height="340px" img width="auto">
+                    <img src="images/tecch10.jpg" alt="Afbeelding 10" img height="340px" img width="auto">
+                    <img src="images/tech11.jpg" alt="Afbeelding 11" img height="340px" img width="auto">
+                    <img src="images/tech12.jpg" alt="Afbeelding 12" img height="340px" img width="auto">
+                    <img src="images/cv pagina bloempot.png" alt="Afbeelding 13" img height="340px" img width="auto">
+                    <img src="images/cv pagina bloempot.png" alt="Afbeelding 14" img height="340px" img width="auto">
+                    <img src="images/Afbeelding van WhatsApp op 2024-01-07 om 23.21.14_98613efc.jpg" alt="Afbeelding 14" img height="340px" img width="auto">
+                    <img src="images/tech13.jpg" alt="Afbeelding 15" img height="340px" img width="auto">
+                    <img src="images/tech14.jpg" alt="Afbeelding 16" img height="340px" img width="auto">
+                  </div>
+
+                  <script>
+                    let currentSlide = 0;
+                    const slides = document.querySelectorAll('#slideshow img');
+                  
+                    function showSlide(index) {
+                      slides.forEach((slide, i) => {
+                        if (i === index) {
+                          slide.style.display = 'block';
+                        } else {
+                          slide.style.display = 'none';
+                        }
+                      });
+                    }
+                  
+                    function nextSlide() {
+                      currentSlide = (currentSlide + 1) % slides.length;
+                      showSlide(currentSlide);
+                    }
+                  
+                    // Toon de eerste dia bij het laden van de pagina
+                    showSlide(currentSlide);
+                  
+                    // Automatisch naar de volgende dia na 2 seconden
+                    setInterval(nextSlide, 4000);
+                  </script>
+               </Div>
+
+               <div class="script">
+                <h3>Filmpje van werkend eindresultaat</h3>
+                <video width="460" height="auto" controls>
+                    <source src="images/plantensysteem.mp4" type="video/mp4">
+                </video>
+               </div>
+              
+
+         </div>
+
+            
+        
+           
+           
+           <style> 
+            
+            body
+                img {
+                width: 400px; /* Pas de breedte van de afbeelding aan naar wens */
+                height: auto; /* Behoud de aspect ratio van de afbeelding */
+                margin: 60px; /* Voeg wat marge toe voor een betere opmaak */
+            }
+                
+            </style>
+        </div> 
+            
+        </div>
+        <style> 
+        
